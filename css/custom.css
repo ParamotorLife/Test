@@ -1,0 +1,15 @@
+main .cd-main-content.cd-index {
+    background-image: url(../img/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+main .cd-main-content.cd-index::before {
+    background-color: rgba(64, 137, 166, 0);
+    background-image: -webkit-linear-gradient(top, rgba(64, 137, 166, 0), rgba(64, 137, 166, 0));
+    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0), rgba(64, 137, 166, 0));
+}
+main .cd-main-content.cd-index::after {
+    background-color: rgba(64, 137, 166, 0);
+    background-image: -webkit-linear-gradient(bottom, rgba(64, 137, 166, 0), rgba(64, 137, 166, 0));
+    background-image: linear-gradient(to top,rgba(64, 137, 166, 0), rgba(64, 137, 166, 0));
+}
