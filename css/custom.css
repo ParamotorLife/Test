@@ -13,9 +13,3 @@ main .cd-main-content.cd-index::after {
     background-image: -webkit-linear-gradient(bottom, rgba(64, 137, 166, 0), rgba(64, 137, 166, 0));
     background-image: linear-gradient(to top,rgba(64, 137, 166, 0), rgba(64, 137, 166, 0));
 }
-
-main .cd-main-content.zee-content {
-    background-image: url(../img/7.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
