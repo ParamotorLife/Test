@@ -58,7 +58,7 @@ jQuery(document).ready(function(event) {
             setTimeout(function() {
                 //wait for the end of the transition on the loading bar before revealing the new content
                 $('body').removeAttr('class');
-                newSection == 'cd-index' : $('body').addClass('zee-body cd-index') : $('body').addClass('zee-body '+newSection);
+                newSection == 'cd-index' ? $('body').addClass('zee-body cd-index') : $('body').addClass('zee-body '+newSection);
                 /*(section.hasClass('cd-bible')) ? $('body').addClass('cd-bible'): $('body').removeClass('cd-bible');
                 (section.hasClass('cd-posts')) ? $('body').addClass('cd-posts'): $('body').removeClass('cd-posts');*/
                 $('body').removeClass('page-is-changing');
